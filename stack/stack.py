@@ -107,3 +107,6 @@ class Stack:
             return None
         self.size -= 1
         return self.storage.remove_tail()
+
+    def len(self):
+        return len(self)
